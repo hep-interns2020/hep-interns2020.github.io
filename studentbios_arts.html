@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+
+<div id="wrapper">
+<html lang="en">
+    <head>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a6e5683739.js" crossorigin="anonymous"></script>
+        <title>Arts</title>
+    </head>
+
+    <div class="header">
+        <img src=logo.jpg height=80px width=200px>
+        <h3>Harvard Ed Portal Summer Intern Program</h3>
+    </div>
+    <br>
+
+<nav>
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home </a></li>
+        <li><a href="studentbios_arts.html"><i class="fas fa-camera-retro"></i> Arts <i class="fas fa-caret-down"></i></a>
+            <ul>
+                 <li><a href="studentbios_arts.html"> Student profiles</a></li>
+                <li><a href="quotes_arts.html"> Quotes</a></li>
+                <li><a href="video_arts.html"> Video productions</a></li>
+            </ul>
+        </li>
+
+        <li><a href="studentbios_labskills.html"><i class="fas fa-flask"></i> Lab Skills <i class="fas fa-caret-down"></i></a>
+            <ul>
+                <li><a href="studentbios_labskills.html"> Intro + Bios </a></li>
+                <li><a href="finalproject_labskills.html"> Final Project </a></li>
+
+            </ul>
+        </li>
+
+        <li><a href="studentbios_storytelling.html"><i class="fas fa-book"></i> Storytelling <i class="fas fa-caret-down"></i></a>
+            <ul>
+                <li><a href="studentbios_storytelling.html"> Intro + Bios </a></li>
+                <li><a href="finalproject_storytelling.html"> Final Project </a></li>
+
+            </ul>
+        </li>
+
+        <li><a href="studentbios_webdevelopment.html"><i class="fas fa-laptop"></i> Web Development <i class="fas fa-caret-down"></i></a>
+            <ul>
+                <li><a href="studentbios_webdevelopment.html"> Intro + Bios </a></li>
+                <li><a href="finalproject_webdevelopment.html"> Final Project </a></li>
+
+            </ul>
+        </li>
+
+        <li><a href="studentbios_youthprogramming.html"><i class="fas fa-apple-alt"></i> Youth Programming <i class="fas fa-caret-down"></i></a>
+            <ul>
+                <li><a href="studentbios_youthprogramming.html"> Intro + Bios </a></li>
+                <li><a href="finalproject_youthprogramming.html"> Final Project </a></li>
+
+            </ul>
+        </li>
+
+        <li><a href="staff.html"><i class="fas fa-ellipsis-v"></i> More <i class="fas fa-caret-down"></i></a>
+            <ul>
+                <li><a href="staff.html"> Staff </a></li>
+                <li><a href="abouttheprogram.html"> About The Program </a></li>
+
+            </ul>
+        </li>
+    </ul>
+</nav>
+<br>
+
+
+
+<!-- Introduction -->
+<h1> The Arts Cohort! </h1>
+<div class="intro"> <p>Welcome to the Arts Cohort! Over the last four weeks, we’ve been developing useful skills to help us create and finalize our virtual performance. In our daily meetings, we discuss the details of the mini-projects, like using Canva or researching film shots that will prepare us for the final product. We’ve learned that art isn’t just one thing. It’s anything you want it to be. We all have a deeper understanding of graphic design, videography, and the importance of camera angles, and lighting to create a great quality video. Through our 9 am morning meetings and our 5 pm deadlines, we’ve managed to gain good communication skills, time management skills, and good organizational skills. For those of you who don’t know, our final project is a film/music video. We decided to use the song Seventeen by Alessia Cara. We chose to use this song because it resonates with who we are as a group. As teenagers, we are at that time in our lives where we can’t wait to be older. We wanted to show and represent that we shouldn't take time for granted, because before we know it we'll all be grown up. We all can’t wait until you all see the skills we’ve gained and improved altogether. Thank you and Enjoy!  </p> </div>
+
+
+<style>
+    h1{ text-align:center;
+    font-family: "Comic Sans MS", sans-serif ;
+}
+</style>
+
+
+<br>
+<style>
+
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee !important;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #A51C30;
+    border-color: #A51C30;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #A51C30;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #A51C30 !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #A51C30 !important;
+}
+
+.frontside .card .card-body img {
+    width: 230px;
+    height: 230px;
+    /*makes photos round*/
+   /* border-radius: 50%; */
+}
+
+.sizing {
+    min-height:100px;
+    max-height:300px ;
+    min-width: 100px;
+    max-width:300px;
+    border-radius: 0%;
+}
+</style>
+<!-- Team -->
+<section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">Student Profiles</h5>
+        <div class="row">
+            <!-- Logo -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                     <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Logo</h4>
+                                        <p class="card-text">By Lily & Rebecca</p>
+                                           <img class="sizing"src="LilyRebeccaLogo.png" alt="logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="lily.png" alt="card image"></p>
+                                    <h4 class="card-title">Lily</h4>
+                                    <p class="card-text">Lily is 16 years old and attends Boston Latin School as a junior.</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Lily</h4>
+                                    <p class="card-text">During quarantine, Lily has been reading, drawing, working out, and learning ASL.
+                                    She has also started to play the drums and hopes to learn it fully.
+                                    Lily enjoys visual art and the performing arts, like dancing, which she has done for 8 years (ballet).
+                                    A big passion of hers is space, because she appreciates the unknown aspect of it and for the future she hopes to have a job in astrophysics.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ./Team member -->
+                       <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" >
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="rebecca.png" alt="card image"></p>
+                                    <h4 class="card-title">Rebecca</h4>
+                                    <p class="card-text">Rebecca is 17 years old and attends Brighton High as a senior.</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Rebecca</h4>
+                                    <p class="card-text">Rebecca participated in a running program at her school.
+                                    She wants to try roller skating, tennis, and volleyball.
+                                    The person that motivates Rebecca is her mom. One of Rebecca’s proudest accomplishments is passing junior year and becoming a senior.
+                                    In addition, Rebecca is very passionate about the music she listens to and she really likes photography.
+                                    In the future she wants to go to college to become a photographer and then travel the world.</p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                       <!-- Logo -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                     <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Logo</h4>
+                                        <p class="card-text">By Taylor & Brandy</p>
+                                           <img class="sizing"src="BrandyTaylorLogo.png" alt="logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="taylor.png" alt="card image" height="200px" width="300px"></p>
+                                    <h4 class="card-title">Taylor</h4>
+                                    <p class="card-text">Taylor is 16 years old and attends Cambridge Rindge and Latin as a junior.</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Taylor</h4>
+                                    <p class="card-text">Taylor enjoys playing the piano and violin, dancing, listening to music, and watching whatever comes on TV.
+                                    She wants to learn how to cook because it's a good skill to know when you become more independent.
+                                    She would also like to improve on her organization and communication skills.
+                                    In the future, Taylor wants to go to a 4 year university and work in the medical field.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="brandy.png" alt="card image"></p>
+                                        <h4 class="card-title">Brandy</h4>
+                                        <p class="card-text">Brandy is 16 years old and attends Cambridge Rindge and Latin as a junior.</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Brandy</h4>
+                                    <p class="card-text">How Brandy spends her time in quarantine is by doing workouts, painting, cooking/baking, and organizing. She also likes to play the guitar and is currently one of the managers for the step team.
+                                    She would like to gain organization and time management skills because it would make things easier and eliminate procrastination.
+                                    Brandy hopes to go to Haiti one day to meet some of her family she has never met and go to college to become a child psychologist.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logo -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                     <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Logo</h4>
+                                        <p class="card-text">By Cristel & Sandy</p>
+                                           <img class="sizing"src="CristelSandyLogo.png" alt="logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+            <!-- Team member -->
+<div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" >
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="cristel.png" alt="card image"></p>
+                                    <h4 class="card-title">Cristel</h4>
+                                    <p class="card-text">Cristel is 16 years old and attends Brighton High as a senior.</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Cristel</h4>
+                                    <p class="card-text">In her free time, Cristel plays for the soccer team, plays video games, and watches Netflix.
+                                    Cristel is on the debate team and one of her proudest accomplishments is winning debates. She loves to create new things.
+                                    Drawing is her favorite creative outlet.
+                                    She joined the Arts Cohort because of her love for the arts and hopes to do a job related to art and graphic design in the future.</p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ./Team member -->
+<div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="sandy.png" alt="card image"></p>
+                                    <h4 class="card-title">Sandy</h4>
+                                    <p class="card-text">Sandy is 17 years old and attends Brighton High as a junior.</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Sandy</h4>
+                                    <p class="card-text">Sandy likes to watch horror movies, youtube videos, and play soccer. She has been playing soccer since she was six and is very passionate about it.
+                                    The person that motivates Sandy in her life is her dad who helps her to think through stuff when it gets tough.
+                                    For her future, she wants to go to college and then work for the FBI and also in medicine.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logo -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="frontside">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Logo</h4>
+                                <p class="card-text">By Latoya & Gelila</p>
+                                    <img class="sizing"src="gllogo.png" alt="logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            <!-- Team member -->
+ <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" >
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="latoya.png" alt="card image"></p>
+                                    <h4 class="card-title">Latoya</h4>
+                                    <p class="card-text">Latoya is 16 years old and attends Boston Green Academy as a junior.</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Latoya</h4>
+                                    <p class="card-text">Latoya loves to cook, make new recipes, play basketball, and dance. One of her favorite types of art is still life drawings because it is just drawing what's right in front of you from your perspective.
+                                    She’s passionate about her music and is proud of the progress with her songs and her singing voice.
+                                    In the future, Latoya would like to go to college to study cardiology and become a cardiologist.</p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="gelila.png" alt="card image"></p>
+                                    <h4 class="card-title">Gelila</h4>
+                                    <p class="card-text">Gelila is 16 years old and attends Cambridge Rindge and Latin as a senior.</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Gelila</h4>
+                                    <p class="card-text">Gelila likes to watch Netflix, bake, and draw in her free time. She used to play soccer and basketball. She was even the captain of the basketball team for a year at her old school.
+                                    Gelila enjoys visual art, specifically drawing, and developed an interest for graphic design and that is why she decided to join the arts cohort to explore that as a possible major.
+                                    Lastly, Gelila is very passionate about art and wants people to know about her through her own artwork.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="footer"> <p><strong>Harvard Ed Portal</strong> <br> 224 Western Ave <br> Boston, MA 02134
+<br>edportal@harvard.edu</p> </div>
+
+</html>
+</div>
